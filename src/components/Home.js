@@ -4,13 +4,8 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     block-size: 100vh;
+    overflow-x: hidden;
 `
-
-const carModels = [
-    {
-        
-    }
-]
 
 function Home() {
   return (
@@ -22,9 +17,47 @@ function Home() {
             leftBtnText="Custom order"
             rightBtnText="Existing inventory"
           />
-          {/* <Section />
-          <Section />
-          <Section /> */}
+          <Section
+            title="Model Y"
+            description="Order Online for Touchless Delivery"
+            backgroundImg="model-y.jpg"
+            leftBtnText="Custom order"
+            rightBtnText="Existing inventory"
+          />
+          <Section
+            title="Model 3"
+            description="Order Online for Touchless Delivery"
+            backgroundImg="model-3.jpg"
+            leftBtnText="Custom order"
+            rightBtnText="Existing inventory"
+          />
+          <Section
+            title="Model X"
+            description="Order Online for Touchless Delivery"
+            backgroundImg="model-x.jpg"
+            leftBtnText="Custom order"
+            rightBtnText="Existing inventory"
+          />
+          <Section
+            title="Lowest Cost Solar Panels in America"
+            description="Money-back guarantee"
+            backgroundImg="solar-panel.jpg"
+            leftBtnText="Order now"
+            rightBtnText="Learn more"
+          />
+          <Section
+            title="Solar for New Roofs"
+            description="Produce Clean Energy From Your Roof"
+            backgroundImg="solar-roof.jpg"
+            leftBtnText="Order now"
+            rightBtnText="Learn more"
+          />
+          <Section
+            title="Accessories"
+            description=""
+            backgroundImg="accessories.jpg"
+            leftBtnText="Shop now"
+          />
       </Container>
   );
 }
