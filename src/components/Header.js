@@ -26,7 +26,6 @@ const Menu = styled.div`
   a {
     font-weight: 600;
     text-transform: uppercase;
-    // padding: 0 10px;
   }
 
   @media(max-width: 768px) {
@@ -87,7 +86,7 @@ function Header() {
   return (
     <Container>
         <a>
-            <img src='/images/logo.svg' alt=''/>
+            <img src='./images/logo.svg' alt=''/>
         </a>
         <Menu>
           {cars && cars.map((car, index) => 
